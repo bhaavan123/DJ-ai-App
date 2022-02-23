@@ -1,0 +1,74 @@
+body{
+    background-image: url("dj.png");
+    background-size: cover;
+    background-position: center;
+}
+.div_volume{
+    float:left;
+    margin-left: 25px;
+}
+.div_speed{
+    float:right;
+    margin-right: 25px;
+}
+.volume{
+    width:150px;
+    height:150px;
+    border-radius: 100px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+.speed{
+    width:150px;
+    height:150px;
+    border-radius: 100px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.text_volume{
+    background-color: darkturquoise;
+    border-radius: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.text_speed{
+    background-color: darkturquoise;
+    border-radius: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+@keyframes example{
+    from{border: 6px darkturquoise dotted}
+    to{border: 6px lightgreen dotted}
+}
+
+.heading{
+    font-size: 22px;
+    font-family: 'Pacifico', cursive;
+    border-radius: 10px;
+    border: 7px deeppink ridge;
+}
+
+.NOTE{
+color: black;
+font-size: 15px;
+}
+.play{
+    background-color: gold;
+    width:90px;
+    height: 35px;
+    border-radius: 15px;
+    border: 4px deepskyblue ridge;
+    font-family: 'Pacifico', cursive;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: deeppink;
+   
+}
+
